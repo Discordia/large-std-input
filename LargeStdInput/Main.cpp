@@ -13,6 +13,12 @@ You wont be able to input it all
 */
 int main() 
 {
+	/*
+	const size_t wcinBufferSize = 4096;
+	wchar_t wcinBuffer[wcinBufferSize] = {0};
+	wcin.rdbuf()->pubsetbuf(wcinBuffer, wcinBufferSize); 
+	*/
+
 	const size_t bufferSize = 2 * 4096;
 	wchar_t lineBuffer[bufferSize] = {0};
 
